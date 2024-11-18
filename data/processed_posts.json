@@ -32,7 +32,7 @@
         }
     },
     {
-        "text": "Fine-tuning LLMs with Unsloth AI is fantastic! It reduced my training costs by >78.62%. This is how \u2193\n\nWhile writing the code for the LLM Engineer's Handbook, we first did fine-tuning solely using `\ud835\ude35\ud835\ude33\ud835\ude2d` from Hugging Face.",
+        "text": "Fine-tuning LLMs with Unsloth AI is fantastic! It reduced my training costs by >78.62%. This is how ↓\n\nWhile writing the code for the LLM Engineer's Handbook, we first did fine-tuning solely using `𝘵𝘳𝘭` from Hugging Face.",
         "engagement": {
             "likes": 367,
             "comments": 24,
@@ -40,7 +40,7 @@
         }
     },
     {
-        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! \ud83e\udda5\u2665\ufe0f\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
+        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! 🦥♥️\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
         "engagement": {
             "likes": 552,
             "comments": 22,
@@ -48,7 +48,7 @@
         }
     },
     {
-        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with \ud83e\udda5Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!",
+        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with 🦥Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!",
         "engagement": {
             "likes": 335,
             "comments": 26,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute \ud83e\udda5Unsloth AI stickers or merch, come say hi at our stand!",
+        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute 🦥Unsloth AI stickers or merch, come say hi at our stand!",
         "engagement": {
             "likes": 202,
             "comments": 9,
@@ -72,11 +72,51 @@
         }
     },
     {
-        "text": "I'm super excited to announce that Unsloth AI is part of Y Combinator S24! We\u2019re so pumped to bring fine-tuning to an even larger audience and showcase how easy it can be to build your own custom ChatGPT!",
+        "text": "I'm super excited to announce that Unsloth AI is part of Y Combinator S24! We’re so pumped to bring fine-tuning to an even larger audience and showcase how easy it can be to build your own custom ChatGPT!",
         "engagement": {
             "likes": 1326,
             "comments": 211,
             "reposts": 18
+        }
+    },
+    {
+        "text": "Mistral AI just dropped a new vision multimodal model called Pixtral 12b! I also downloaded params.json - GeLU & 2D RoPE are used for the vision adapter. The vocab size also got larger - 131072. Also, Mistral's latest tokenizer PR shows 3 extra new tokens (the image, the start & end).",
+        "engagement": {
+            "likes": 372,
+            "comments": 7,
+            "reposts": 18
+        }
+    },
+    {
+        "text": "Unsloth AI🦥 just hit 2 million monthly downloads on Hugging Face today! 🥳 We make LLM fine-tuning 2x faster and use 70% less memory with no accuracy degradation!",
+        "engagement": {
+            "likes": 847,
+            "comments": 86,
+            "reposts": 22
+        }
+    },
+    {
+        "text": "Did you know 🦥Unsloth AI has docs now? If you have ideas on improving it, I'm all ears! There's 30 free Colab & Kaggle notebooks for faster fine-tuning & inference listed on one page!",
+        "engagement": {
+            "likes": 303,
+            "comments": 16,
+            "reposts": 15
+        }
+    },
+    {
+        "text": "The State of AI Report 2024 is out! With over 200 pages of information about AI, it's definitely worth a read! Unsloth AI also got a mention on page 139. Report link: www.stateof.ai",
+        "engagement": {
+            "likes": 257,
+            "comments": 24,
+            "reposts": 8
+        }
+    },
+    {
+        "text": "We're releasing 2 free notebooks for 2x faster & 60% less memory fine-tuning for Mistral NeMo 12b! Mistral's latest free LLM is the largest multilingual OSS model which can fit in a free Colab GPU!",
+        "engagement": {
+            "likes": 571,
+            "comments": 36,
+            "reposts": 46
         }
     }
 ]
