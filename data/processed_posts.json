@@ -1,0 +1,82 @@
+[
+    {
+        "text": "I uploaded 128K context 8bit, 6, 4, 3, and 2bit quants for Qwen 2.5 Coder 32B which matches GPT4o / Claude 3.5 Sonnet performance in coding tasks! Uploads are at: https://lnkd.in/gGKC6pyw\n\nThe 4bit quant Q4_K_M is recommended - it uses ~20 to 24GB of VRAM / RAM, so if your machine has a combined total of 24GB (RTX 4090 works), it'll work well!\n\nThe 2bit quant Q2_K uses 12 to 15GB, so smaller GPUs also can fit - there is some performance degradation though.",
+        "engagement": {
+            "likes": 386,
+            "comments": 20,
+            "reposts": 24
+        }
+    },
+    {
+        "text": "Qwen 2.5 Coder 32B just matched GPT4o's performance on coding! And it's free! You can finetune 14B for free on Colab with Unsloth AI 2x faster & using 60% less VRAM with no accuracy degradation.\n\nGoogle Colab 14B notebook: https://lnkd.in/g6v_MFtP\nKaggle 14B notebook: https://lnkd.in/g9R9vbMA",
+        "engagement": {
+            "likes": 598,
+            "comments": 45,
+            "reposts": 44
+        }
+    },
+    {
+        "text": "If you haven't read a book in a while, I highly recommend The LLM Engineer's Handbook by Maxime Labonne and Paul Iusztin.\n\nThe book guides you through LLM fundamentals, complete with helpful code examples and visuals, so you can use LLMs to its fullest potential.",
+        "engagement": {
+            "likes": 542,
+            "comments": 27,
+            "reposts": 24
+        }
+    },
+    {
+        "text": "If you're on Python 3.10, switch to 3.11! Linux machines are ~1.25x faster. Mac 1.2x faster. Windows 1.12x. Unsloth AI will be faster as well! But why is 3.11 faster?",
+        "engagement": {
+            "likes": 653,
+            "comments": 33,
+            "reposts": 41
+        }
+    },
+    {
+        "text": "Fine-tuning LLMs with Unsloth AI is fantastic! It reduced my training costs by >78.62%. This is how \u2193\n\nWhile writing the code for the LLM Engineer's Handbook, we first did fine-tuning solely using `\ud835\ude35\ud835\ude33\ud835\ude2d` from Hugging Face.",
+        "engagement": {
+            "likes": 367,
+            "comments": 24,
+            "reposts": 34
+        }
+    },
+    {
+        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! \ud83e\udda5\u2665\ufe0f\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
+        "engagement": {
+            "likes": 552,
+            "comments": 22,
+            "reposts": 6
+        }
+    },
+    {
+        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with \ud83e\udda5Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!",
+        "engagement": {
+            "likes": 335,
+            "comments": 26,
+            "reposts": 18
+        }
+    },
+    {
+        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute \ud83e\udda5Unsloth AI stickers or merch, come say hi at our stand!",
+        "engagement": {
+            "likes": 202,
+            "comments": 9,
+            "reposts": 3
+        }
+    },
+    {
+        "text": "A transformer's depth affects its reasoning capabilities, whilst model size affects its knowledge capacity. Experiments show wider LLMs don't affect reasoning capabilities but more depth (more layers) helps increase it.",
+        "engagement": {
+            "likes": 329,
+            "comments": 15,
+            "reposts": 27
+        }
+    },
+    {
+        "text": "I'm super excited to announce that Unsloth AI is part of Y Combinator S24! We\u2019re so pumped to bring fine-tuning to an even larger audience and showcase how easy it can be to build your own custom ChatGPT!",
+        "engagement": {
+            "likes": 1326,
+            "comments": 211,
+            "reposts": 18
+        }
+    }
+]
