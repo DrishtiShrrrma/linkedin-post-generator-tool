@@ -1,1 +1,150 @@
-
+[
+    {
+        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! \ud83e\udda5\u2665\ufe0f\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
+        "engagement": {
+            "likes": 552,
+            "comments": 22,
+            "reposts": 6
+        },
+        "line_count": 3,
+        "language": "English",
+        "tags": [
+            "AI Models",
+            "AI Platforms"
+        ]
+    },
+    {
+        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with \ud83e\udda5Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!\n\nEssentially to cut down on memory usage, gradient accumulation splits batches of data into smaller mini batches. The issue was the gathering process of all these smaller batches was scaled incorrectly, so the denominator was calculated incorrectly.\n\nThis issue affected all trainers that implemented gradient accumulation, and we wrote up a blog post detailing how the issue was found over 4 years ago, and how we debugged and fixed it. Blog post: unsloth.ai/blog/gradient\n\nUnsloth also makes finetuning 2x faster and use 70% less VRAM for Llama 3.2, Mistral, Gemma 2, Phi, Qwen and more!\n\nColab notebook: https://lnkd.in/g2gbiz45\nKaggle notebook: https://lnkd.in/gumTFxqW",
+        "engagement": {
+            "likes": 335,
+            "comments": 26,
+            "reposts": 18
+        },
+        "line_count": 10,
+        "language": "English",
+        "tags": [
+            "AI Models",
+            "AI"
+        ]
+    },
+    {
+        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute \ud83e\udda5Unsloth AI stickers or merch, come say hi at our stand!\n\nIf you want to chat about anything on LLMs, bug hunting and fixing, finetuning, inference, or want to talk AI in general (or talk about AGI :)), come say hi - we'll be there for the whole Tuesday!",
+        "engagement": {
+            "likes": 202,
+            "comments": 9,
+            "reposts": 3
+        },
+        "line_count": 2,
+        "language": "English",
+        "tags": [
+            "AI Models",
+            "AI Platforms"
+        ]
+    },
+    {
+        "text": "My hour long lecture on the GPU MODE / CUDA MODE server is out! I talked about LLM Systems Engineering in Unsloth AI and:\n\n1. The Gradient Accumulation bug fix.\n2. Why Triton kernels & not CUDA?\n3. Bug hunting in Llama, Mistral, Gemma, Phi.\n4. Will compilers automate stuff?\n5. And answered a lot of Q&A!\n\nYoutube link: Lecture 32: Unsloth youtube.com",
+        "engagement": {
+            "likes": 531,
+            "comments": 14,
+            "reposts": 24
+        },
+        "line_count": 8,
+        "language": "English",
+        "tags": [
+            "AI Models"
+        ]
+    },
+    {
+        "text": "Fixed a bug which caused all training losses to diverge for large gradient accumulation sizes.\n\n1. First reported by Benjamin Marie, GA is supposed to be mathematically equivalent to full batch training, but losses did not match.\n2. We reproed the issue, and further investigation showed the L2 Norm betw bsz=16 and ga=16 was 10x larger.\n3. The culprit was the cross entropy loss normalizer.\n4. We ran training runs with denormalized CE Loss, and all training losses match.\n5. We then re-normalized CE Loss with the correct denominator across all gradient accumulation steps, and verified all training loss curves match now.\n6. We've already updated Unsloth AI with the fix, and wrote up more details in our blog post here: https://lnkd.in/gxPPw3Tp\n\nThis issue impacts all libraries which use GA, and simple averaging of GA does not work for varying sequence lengths.\n\nThis also impacts DDP and multi GPU training which accumulates gradients. Please update Unsloth!\n\nWe have a Colab notebook using our fixed GA: https://lnkd.in/g2gbiz45\nKaggle notebook: https://lnkd.in/ge8DnWpY",
+        "engagement": {
+            "likes": 415,
+            "comments": 21,
+            "reposts": 19
+        },
+        "line_count": 13,
+        "language": "English",
+        "tags": [
+            "AI"
+        ]
+    },
+    {
+        "text": "Did you know \ud83e\udda5Unsloth AI has docs now? If you have ideas on improving it, I'm all ears! There's 30 free Colab & Kaggle notebooks for faster finetuning & inference listed on 1 page!\n\nIf you're looking to finetune Llama and export to Ollama for local inference, we have a specific page for that in the docs as well - page here: https://lnkd.in/gx-YsHB5\n\nThere's a page for Reward modelling via DPO, ORPO and KTO here: https://lnkd.in/gpr7bTua, how to debug errors in Unsloth and more!\n\nAll our docs here: https://docs.unsloth.ai/ The docs are a companion to our official Github Wiki here: https://lnkd.in/gpvMYtbY",
+        "engagement": {
+            "likes": 303,
+            "comments": 16,
+            "reposts": 15
+        },
+        "line_count": 5,
+        "language": "English",
+        "tags": [
+            "AI Models",
+            "AI"
+        ]
+    },
+    {
+        "text": "The State of AI Report 2024 is out! With over 200 pages of information about AI, it's definitely worth a read! Unsloth AI also got a mention on page 139 :) Report link: www.stateof.ai",
+        "engagement": {
+            "likes": 257,
+            "comments": 24,
+            "reposts": 8
+        },
+        "line_count": 1,
+        "language": "English",
+        "tags": [
+            "AI"
+        ]
+    },
+    {
+        "text": "Ever wanted to use a finetuned LLM for code assistant tools like Continue? You can now, by using \ud83e\udda5Unsloth AI's free Colab notebooks!\n\nSophia wrote up an amazing step by step guide on creating a custom autocomplete model using Unsloth, and how to export it to Ollama then how to use the finetuned model directly in Continue!\n\nInstead of directly using a code assistant's pretrained LLM, you can now customize the model with your own codebase, allowing the code assistant to have much higher accuracy on code completion tasks!\n\nThe guide is on the front page of blog.continue.dev!\nLink to guide: https://lnkd.in/e5CKd9fP\nUnsloth's free finetuning notebooks are at huggingface.co/unsloth",
+        "engagement": {
+            "likes": 207,
+            "comments": 11,
+            "reposts": 6
+        },
+        "line_count": 6,
+        "language": "English",
+        "tags": [
+            "AI Models"
+        ]
+    },
+    {
+        "text": "If you're finetuning Llama 3.2 1B or 3B with conversational datasets, Kaggle offers 30 hours of GPUs for free per week! I have a Unsloth AI notebook which makes finetuning 2x faster and use 70% less memory!\n\nLlama 3.2 1B finetuning uses less than 4GB of memory and the 3B model uses less than 7GB of GPU memory! Kaggle notebook: https://lnkd.in/gHVQTrxh\n\nYou can also export your finetune to llama.cpp / GGUF, Ollama, vLLM for inference, or you can Unsloth's built in 2x faster inference engine!",
+        "engagement": {
+            "likes": 441,
+            "comments": 36,
+            "reposts": 26
+        },
+        "line_count": 4,
+        "language": "English",
+        "tags": [
+            "AI Models",
+            "AI Platforms"
+        ]
+    },
+    {
+        "text": "My analysis of Llama 3.2 - new multimodal release:\n1. New 1B and 3B text only LLMs 9 trillion tokens\n2. New 11B and 90B vision multimodal models\n3. 128K context length\n4. 1B and 3B used some distillation from 8B and 70B\n5. VLM 6 billion img, text pairs\n6. CLIP MLP GeLU + cross attention\n\nLonger analysis:\n1. CLIP type MLP with GeLU activation used in vision encoder. Similar to GPT2's MLP. Different to Llama 3's MLP since SwiGLU is not used for the vision MLP.\n\n2. Normal layernorm used for vision encoder - not RMS Layernorm. Also some 'gating' parameter is used to multiply the hidden states.\n\n3. Gating multiplier done to hidden states after attention and MLP - tanh used to move vector scaling to numbers from -1 to 1.\n\n4. Evals look pretty good for small 1B and 3B LLMs and multimodal VLMs 11B and 90B. 1B 49.3 MMLU and 3B 63.4. VLM MMMU 50.7 and 90B 60.3\n\nThe 1B and 3B should be already supported in Unsloth AI - so get 2x faster finetuning, 2x faster inference and 70% less VRAM use! Currently working to integrate 11B and 90B VLMs into Unsloth!!",
+        "engagement": {
+            "likes": 747,
+            "comments": 23,
+            "reposts": 68
+        },
+        "line_count": 15,
+        "language": "English",
+        "tags": [
+            "AI Models"
+        ]
+    },
+    {
+        "text": "Qwen 2.5 released multiple models last week! 500M until 72B parameters! There are some issues in the tokenizer and chat template which I just fixed in Unsloth AI. Please update all models, or download our fixed models on our HF page.\n\nI also made a finetuning conversational Colab notebook for Qwen 2.5 which works on all model sizes 0.5, 1.5, 3, 7, 14, 32, 72B parameters: https://lnkd.in/gyn5afKB\n\nAnd also some Kaggle notebooks as well! https://lnkd.in/gPKfG6aN.\n\nThe tokenizer and chat templates for Qwen 2.5 had issues including:\n1. <|endoftext|> should be the EOS token, not <|im_end|> for base models\n2. The chat template should be empty for all base models\n3. Do not use <|im_end|> in the base models or there are NaNs in gradients.",
+        "engagement": {
+            "likes": 320,
+            "comments": 20,
+            "reposts": 24
+        },
+        "line_count": 9,
+        "language": "English",
+        "tags": [
+            "AI Models"
+        ]
+    }
+]
