@@ -1,6 +1,6 @@
 [
     {
-        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! \ud83e\udda5\u2665\ufe0f\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
+        "text": "We're currently at the GitHub Universe so feel free to stop by to say hi! 🦥♥️\n\nWe'll be handing out Unsloth AI stickers, merch and more. Also if you want to have a chat about AI or Unsloth we'd love to!\n\nWe're in the Open Source Zone at the Gateway Pavillon in the Fort Mason Center.",
         "engagement": {
             "likes": 552,
             "comments": 22,
@@ -9,36 +9,39 @@
         "line_count": 3,
         "language": "English",
         "tags": [
-            "AI Models",
-            "AI Platforms"
+            "Unsloth",
+            "AI",
+            "GitHub"
         ]
     },
     {
-        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with \ud83e\udda5Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!\n\nEssentially to cut down on memory usage, gradient accumulation splits batches of data into smaller mini batches. The issue was the gathering process of all these smaller batches was scaled incorrectly, so the denominator was calculated incorrectly.\n\nThis issue affected all trainers that implemented gradient accumulation, and we wrote up a blog post detailing how the issue was found over 4 years ago, and how we debugged and fixed it. Blog post: unsloth.ai/blog/gradient\n\nUnsloth also makes finetuning 2x faster and use 70% less VRAM for Llama 3.2, Mistral, Gemma 2, Phi, Qwen and more!\n\nColab notebook: https://lnkd.in/g2gbiz45\nKaggle notebook: https://lnkd.in/gumTFxqW",
+        "text": "Sharing 2 free notebooks to finetune Llama 3.2 with 🦥Unsloth AI! They also include our gradient accumulation bug fix which affected all training runs in AI!\n\nEssentially to cut down on memory usage, gradient accumulation splits batches of data into smaller mini batches. The issue was the gathering process of all these smaller batches was scaled incorrectly, so the denominator was calculated incorrectly.\n\nThis issue affected all trainers that implemented gradient accumulation, and we wrote up a blog post detailing how the issue was found over 4 years ago, and how we debugged and fixed it. Blog post: unsloth.ai/blog/gradient\n\nUnsloth also makes finetuning 2x faster and use 70% less VRAM for Llama 3.2, Mistral, Gemma 2, Phi, Qwen and more!\n\nColab notebook: https://lnkd.in/g2gbiz45\nKaggle notebook: https://lnkd.in/gumTFxqW",
         "engagement": {
             "likes": 335,
             "comments": 26,
             "reposts": 18
         },
-        "line_count": 10,
+        "line_count": 7,
         "language": "English",
         "tags": [
-            "AI Models",
-            "AI"
+            "Efficiency",
+            "AI",
+            "Bug Fixes"
         ]
     },
     {
-        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute \ud83e\udda5Unsloth AI stickers or merch, come say hi at our stand!\n\nIf you want to chat about anything on LLMs, bug hunting and fixing, finetuning, inference, or want to talk AI in general (or talk about AGI :)), come say hi - we'll be there for the whole Tuesday!",
+        "text": "We'll be at GitHub Universe in SF next week Tuesday! If you want some cute 🦥Unsloth AI stickers or merch, come say hi at our stand!\n\nIf you want to chat about anything on LLMs, bug hunting and fixing, finetuning, inference, or want to talk AI in general (or talk about AGI :)), come say hi - we'll be there for the whole Tuesday!",
         "engagement": {
             "likes": 202,
             "comments": 9,
             "reposts": 3
         },
-        "line_count": 2,
+        "line_count": 4,
         "language": "English",
         "tags": [
-            "AI Models",
-            "AI Platforms"
+            "LLMs",
+            "AI",
+            "Bug Fixes"
         ]
     },
     {
@@ -48,10 +51,12 @@
             "comments": 14,
             "reposts": 24
         },
-        "line_count": 8,
+        "line_count": 7,
         "language": "English",
         "tags": [
-            "AI Models"
+            "Efficiency",
+            "AI",
+            "Bug Fixes"
         ]
     },
     {
@@ -61,24 +66,27 @@
             "comments": 21,
             "reposts": 19
         },
-        "line_count": 13,
+        "line_count": 12,
         "language": "English",
         "tags": [
-            "AI"
+            "Efficiency",
+            "AI",
+            "Bug Fixes"
         ]
     },
     {
-        "text": "Did you know \ud83e\udda5Unsloth AI has docs now? If you have ideas on improving it, I'm all ears! There's 30 free Colab & Kaggle notebooks for faster finetuning & inference listed on 1 page!\n\nIf you're looking to finetune Llama and export to Ollama for local inference, we have a specific page for that in the docs as well - page here: https://lnkd.in/gx-YsHB5\n\nThere's a page for Reward modelling via DPO, ORPO and KTO here: https://lnkd.in/gpr7bTua, how to debug errors in Unsloth and more!\n\nAll our docs here: https://docs.unsloth.ai/ The docs are a companion to our official Github Wiki here: https://lnkd.in/gpvMYtbY",
+        "text": "Did you know 🦥Unsloth AI has docs now? If you have ideas on improving it, I'm all ears! There's 30 free Colab & Kaggle notebooks for faster finetuning & inference listed on 1 page!\n\nIf you're looking to finetune Llama and export to Ollama for local inference, we have a specific page for that in the docs as well - page here: https://lnkd.in/gx-YsHB5\n\nThere's a page for Reward modelling via DPO, ORPO and KTO here: https://lnkd.in/gpr7bTua, how to debug errors in Unsloth and more!\n\nAll our docs here: https://docs.unsloth.ai/ The docs are a companion to our official Github Wiki here: https://lnkd.in/gpvMYtbY",
         "engagement": {
             "likes": 303,
             "comments": 16,
             "reposts": 15
         },
-        "line_count": 5,
+        "line_count": 6,
         "language": "English",
         "tags": [
-            "AI Models",
-            "AI"
+            "Documentation",
+            "AI",
+            "Open Source"
         ]
     },
     {
@@ -91,11 +99,13 @@
         "line_count": 1,
         "language": "English",
         "tags": [
-            "AI"
+            "State of AI Report",
+            "AI",
+            "Research"
         ]
     },
     {
-        "text": "Ever wanted to use a finetuned LLM for code assistant tools like Continue? You can now, by using \ud83e\udda5Unsloth AI's free Colab notebooks!\n\nSophia wrote up an amazing step by step guide on creating a custom autocomplete model using Unsloth, and how to export it to Ollama then how to use the finetuned model directly in Continue!\n\nInstead of directly using a code assistant's pretrained LLM, you can now customize the model with your own codebase, allowing the code assistant to have much higher accuracy on code completion tasks!\n\nThe guide is on the front page of blog.continue.dev!\nLink to guide: https://lnkd.in/e5CKd9fP\nUnsloth's free finetuning notebooks are at huggingface.co/unsloth",
+        "text": "Ever wanted to use a finetuned LLM for code assistant tools like Continue? You can now, by using 🦥Unsloth AI's free Colab notebooks!\n\nSophia wrote up an amazing step by step guide on creating a custom autocomplete model using Unsloth, and how to export it to Ollama then how to use the finetuned model directly in Continue!\n\nInstead of directly using a code assistant's pretrained LLM, you can now customize the model with your own codebase, allowing the code assistant to have much higher accuracy on code completion tasks!\n\nThe guide is on the front page of blog.continue.dev!\nLink to guide: https://lnkd.in/e5CKd9fP\nUnsloth's free finetuning notebooks are at huggingface.co/unsloth",
         "engagement": {
             "likes": 207,
             "comments": 11,
@@ -104,7 +114,9 @@
         "line_count": 6,
         "language": "English",
         "tags": [
-            "AI Models"
+            "Model Updates",
+            "LLMs",
+            "Code Assistant"
         ]
     },
     {
@@ -114,11 +126,12 @@
             "comments": 36,
             "reposts": 26
         },
-        "line_count": 4,
+        "line_count": 5,
         "language": "English",
         "tags": [
-            "AI Models",
-            "AI Platforms"
+            "Efficiency",
+            "GPU",
+            "AI"
         ]
     },
     {
@@ -128,10 +141,12 @@
             "comments": 23,
             "reposts": 68
         },
-        "line_count": 15,
+        "line_count": 21,
         "language": "English",
         "tags": [
-            "AI Models"
+            "Efficiency",
+            "AI",
+            "Multimodal Models"
         ]
     },
     {
@@ -144,7 +159,9 @@
         "line_count": 9,
         "language": "English",
         "tags": [
-            "AI Models"
+            "Model Updates",
+            "AI",
+            "Bug Fixes"
         ]
     }
 ]
