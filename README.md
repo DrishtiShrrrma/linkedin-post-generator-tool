@@ -2,10 +2,6 @@
 
 **Streamlit App**: [LinkedIn Post Generator](https://huggingface.co/spaces/DrishtiSharma/linkedin-post-generator)  
 
----
-
-## Overview  
-
 The **LinkedIn Post Generator** is a Streamlit-based application designed to help users create engaging, impactful, and professional LinkedIn posts. It utilizes Large Language Models (LLMs) with few-shot learning to generate customized posts based on user preferences like topic, tone, language, and length.  
 
 The app offers an intuitive interface, post analysis, and history management, making it a perfect tool for professionals aiming to streamline their LinkedIn content creation process.  
