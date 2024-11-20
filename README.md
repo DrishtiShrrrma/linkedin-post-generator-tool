@@ -40,15 +40,6 @@ The app offers an intuitive interface, post analysis, and history management, ma
 
 ---
 
-## Streamlit App  
-
-Access the live application here:  
-[**LinkedIn Post Generator**](https://huggingface.co/spaces/DrishtiSharma/linkedin-post-generator)  
-
-Use the intuitive interface to effortlessly generate and customize LinkedIn posts tailored to your needs.  
-
----
-
 ## Tools and Libraries Used  
 
 - **Programming Language**: Python  
