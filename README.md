@@ -1,6 +1,3 @@
-
----
-
 # LinkedIn Post Generator 🚀  
 
 **Streamlit App**: [LinkedIn Post Generator](https://huggingface.co/spaces/DrishtiSharma/linkedin-post-generator)  
