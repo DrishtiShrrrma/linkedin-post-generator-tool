@@ -1,49 +1,3 @@
-Hugging Face's logo
-Hugging Face
-Search models, datasets, users...
-Models
-Datasets
-Spaces
-Posts
-Docs
-Enterprise
-Pricing
-
-
-
-Spaces:
-
-DrishtiSharma
-/
-linkedin-post-generator
-
-
-like
-0
-
-App
-Files
-Community
-Settings
-linkedin-post-generator
-/
-app.py
-
-DrishtiSharma's picture
-DrishtiSharma
-Update app.py
-fed1cb1
-verified
-6 minutes ago
-raw
-
-Copy download link
-history
-blame
-edit
-delete
-
-4.45 kB
 import streamlit as st
 from few_shot import FewShotPosts
 from post_generator import generate_post
@@ -177,4 +131,3 @@ def download_posts(posts):
 # Run the app
 if __name__ == "__main__":
     main()
-
